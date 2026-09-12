@@ -1,0 +1,23 @@
+create table contracts (
+contract_award_unique_key text primary key,
+award_id_piid text,
+award_base_action_date date,
+award_base_action_date_fiscal_year integer,
+total_obligated_amount NUMERIC,
+current_total_value_of_award NUMERIC,
+awarding_agency_name text,
+awarding_sub_agency_name text,
+recipient_name text,
+recipient_parent_name text,
+recipient_uei text,
+primary_place_of_performance_state_code text, 
+primary_place_of_performance_state_name text,
+primary_place_of_performance_county_name text,
+naics_code text,
+naics_description text,
+award_type text,
+extent_competed text,
+number_of_offers_received integer,
+type_of_set_aside text,
+prime_award_base_transaction_description
+);
